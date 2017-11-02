@@ -20,9 +20,8 @@ You can now use the script in your proyects, you need create a Template folder w
 
 To create a new module you need write
 
-`jinsokugenerator MODULE_NAME TEMPLATE_NAME`
-
-If you don't define `TEMPLATE_NAME` the script uses `Viper` template by default
+`jinsokugenerator -n MODULE_NAME`
+you can write  `jinsokugenerator --help` for more information 
 
 ## Authors
 
