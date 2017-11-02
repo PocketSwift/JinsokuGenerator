@@ -16,7 +16,7 @@
  
  ## Usage
  
-You can now use the script in your proyects, you need create a Template folder with the name `Templates`. You can see an Example in * [Jinsoku Templates repository][2]
+You can now use the script in your proyects, you need create a Template folder with the name `Templates`. You can see an Example in * [Jinsoku Templates repository][3]
 
 To create a new module you need write
 
