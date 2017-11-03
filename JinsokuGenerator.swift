@@ -130,7 +130,7 @@ public final class JinsokuGenerator {
         let modifiedFile = try folder.createFile(named: "\(file.name.replacingOccurrences(of: placeholder, with: prefix))")
         print("     📦  Generated \(modifiedFile.name)")
         let documentAsString = try file.readAsString()
-        try modifiedFile.write(string: documentAsString.replacingOccurrences(of: JinsokuGenerator.placeholder, with: prefix))
+        try modifiedFile.write(string: documentAsString.replacingOccurrences(of: placeholder, with: prefix))
     }
     
 }
